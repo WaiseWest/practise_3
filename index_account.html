@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Главная</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="icon" href="./style/images/logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body style="margin-left: 8%; margin-right: 8%;">
+
+    <nav class="navbar navbar-expand-lg navbar-light py-4" style="background-color: #fff;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index_account.html#YANDEX_ACC">
+                <img class="img-fluid" src="./style/images/header_logo.png" alt="Yandex.Crowd" id="YANDEX_ACC" width="170px" >
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav_lc" aria-controls="nav_lc" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nav_lc">
+                <ul class="d-none d-lg-flex navbar-nav mx-auto my-3 my-lg-0 position-absolute top-50 start-50 translate-middle">
+                    <li class="nav-item me-4"><a class="btn btn-outline-primary me-2" href="index_account.html#YANDEX_ACC">Вакансии</a></li>
+                    <li class="nav-item me-4"><a class="btn btn-outline-primary me-2" href="help_account.html">Тех Поддержка</a></li>
+                </ul>
+                <ul class="navbar-nav my-3 my-lg-0 d-lg-none" >
+                    <li class="nav-item me-4 ms-auto"><a class="btn btn-outline-primary me-2" href="index_account.html#YANDEX_ACC" style="margin-bottom: 1vw;">Вакансии</a></li>
+                    <li class="nav-item me-4 ms-auto"><a class="btn btn-outline-primary me-2" href="help_account.html">Тех Поддержка</a></li>
+                </ul>
+                <div class="ms-lg-auto"><a class="btn btn-outline-primary me-2" href="index.html" style="margin-top: 2vw; margin-left: auto">Николай И</a></div>
+            </div>
+        </div>
+    </nav>    
+
+    <ul class="nav nav-pills mb-4" id="pills-tab" role="tablist" style="background-color: #E3E5EA; padding: 1%; border-radius: 1vw;">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+          Продажи
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+          Поддержка
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+          Бэк-офис
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false">
+          Нейросети
+        </button>
+      </li>
+    </ul>
+    
+    <div class="tab-content" >
+      <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0" style="color: #656AED;">
+       
+        <div id="carouselExampleCaptions" class="carousel slide" style="background-color: #fcce51;">
+          <div class="carousel-inner" >
+            <div class="carousel-item active" >
+                <div class = "item_card" style="display: flex;  padding: 2%; background-color: #fcce51; margin: 1vw 10%; height: 100%;">
+                    <img src="./style/images/Sales_1.jpg" class="d-block " alt="..." style="border-radius: 20px;  width: 50%; height: 100%; min-height: 30vw; object-fit: cover;">
+                <div class="carousel-caption  d-md-block" style="background-color: #656AED; border-radius: 50px; margin-left: 2vw; padding: 3vh; height: fit-content; max-width: 70% ; margin-top: auto; margin-bottom: auto;">
+                  <h5 style="font-weight: 700; margin-top: auto; margin-bottom: auto;">Менеджер по продажам сервисов Яндекса</h5>
+                  <p>Мы всегда стремимся к тому, чтобы сегодня наши продукты были лучше, чем вчера. Ищем менеджера по продажам: 
+                    предстоит звонить клиентам, рассказывать о новинках сервисов Яндекса и предлагать их попробовать. Приходите, если работали в продажах от трех
+                    месяцев и любите общаться с людьми​</p>
+                  <div class="aligner">
+                      <h7 >от 50 000 ₽ на руки</h7>
+                      <a href="card_sales_1.html" style="text-decoration: none; color: white;  ">
+                        <h6 style="cursor: pointer;" onclick="showAlertAndRedirect()">Подробнее</h6>                         
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" >
+                <div class = "item_card" style="display: flex;  padding: 2%; background-color: #fcce51; margin: 1vw 10%; height: 100%;">
+                    <img src="./style/images/Sales_2.jfif" class="d-block " alt="..." style="border-radius: 20px;  width: 50%; height: 100%; min-height: 30vw; object-fit: cover;">
+                <div class="carousel-caption  d-md-block" style="background-color: #656AED; border-radius: 50px; margin-left: 2vw; padding: 3vh; height: fit-content; max-width: 70% ; margin-top: auto; margin-bottom: auto;">
+                  <h5 style="font-weight: 700; margin-top: auto; margin-bottom: auto;">Менеджер по продажам услуг Геосервисов</h5>
+                  <p>Мы ищем активных менеджеров, которые будут предлагать клиентам платное продвижение на Яндекс Картах​</p>
+                    <div class="aligner">
+                      <h7 >от 40 000 ₽ на руки</h7>
+                      <a href="card_sales_2.html" style="text-decoration: none; color: white;  ">
+                        <h6 style="cursor: pointer;" onclick="showAlertAndRedirect()">Подробнее</h6>
+                         
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+                <div class = "item_card" style="display: flex;  padding: 2%; background-color: #fcce51; margin: 1vw 10%; height: 100%;">
+                    <img src="./style/images/Sales_3.png" class="d-block " alt="..." style="border-radius: 20px;  width: 50%; height: 100%; min-height: 30vw; object-fit: cover;">
+                <div class="carousel-caption  d-md-block" style="background-color: #656AED; border-radius: 50px; margin-left: 2vw; padding: 3vh; height: fit-content; max-width: 70% ; margin-top: auto; margin-bottom: auto;">
+                  <h5 style="font-weight: 700; margin-top: auto; margin-bottom: auto;">Менеджер по продажам в Яндекс 360 для Бизнеса</h5>
+                  <p>Звоните клиентам из тёплой базы и предлагайте подключаться к сервису Яндекс 360 для Бизнеса. Важен опыт</p>
+                  <div class="aligner">
+                      <h7 >от 500 ₽ в час</h7>
+                      <a href="card_sales_3.html" style="text-decoration: none; color: white;  ">
+                        <h6 style="cursor: pointer;" onclick="showAlertAndRedirect()">Подробнее</h6>                         
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        </div>
+        
+      </div>
+
+
+
+      <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0" style="color: #656AED;">
+
+        <div id="carouselExampleCaptions-3" class="carousel slide" style="background-color: #fcce51;">
+          <div class="carousel-inner" >
+            <div class="carousel-item active" >
+                <div class = "item_card" style="display: flex;  padding: 2%; background-color: #fcce51; margin: 1vw 10%; height: 100%;">
+                    <img src="./style/images/helper_1.png" class="d-block " alt="..." style="border-radius: 20px;  width: 50%; height: 100%; min-height: 30vw; object-fit: cover;">
+                <div class="carousel-caption  d-md-block" style="background-color: #656AED; border-radius: 50px; margin-left: 2vw; padding: 3vh; height: fit-content; max-width: 70% ; margin-top: auto; margin-bottom: auto;">
+                  <h5 style="font-weight: 700; margin-top: auto; margin-bottom: auto;">Специалист письменной поддержки пользователей финтех-сервисов</h5>
+                  <p>Мы ищем общительного и дружелюбного человека, который будет помогать пользователям сайта и отвечать на их вопросы в чате​</p>
+                  <div class="aligner">
+                      <h7 >от 40 000 ₽ на руки</h7>
+                      <a href="card_help_1.html" style="text-decoration: none; color: white;  ">
+                        <h6 style="cursor: pointer;" onclick="showAlertAndRedirect()">Подробнее</h6>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" >
+                <div class = "item_card" style="display: flex;  padding: 2%; background-color: #fcce51; margin: 1vw 10%; height: 100%;">
+                    <img src="./style/images/helper_2.png" class="d-block " alt="..." style="border-radius: 20px;  width: 50%; height: 100%; min-height: 30vw; object-fit: cover;">
+                <div class="carousel-caption  d-md-block" style="background-color: #656AED; border-radius: 50px; margin-left: 2vw; padding: 3vh; height: fit-content; max-width: 70% ; margin-top: auto; margin-bottom: auto;">
+                  <h5 style="font-weight: 700; margin-top: auto; margin-bottom: auto;">Оператор call-центра Яндекс Практикума</h5>
+                  <p>Яндекс Практикум помогает людям расти на работе и в личной жизни. Приходите консультировать студентов, 
+                    помогать им с выбором курсов и делать исходящие обзвоны​</p>
+                    <div class="aligner">
+                      <h7 >от 65 000 ₽ на руки</h7>
+                      <a href="card_help_2.html" style="text-decoration: none; color: white;  ">
+                        <h6 style="cursor: pointer;" onclick="showAlertAndRedirect()">Подробнее</h6>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+                <div class = "item_card" style="display: flex;  padding: 2%; background-color: #fcce51; margin: 1vw 10%; height: 100%;">
+                    <img src="./style/images/helper_3.png" class="d-block " alt="..." style="border-radius: 20px;  width: 50%; height: 100%; min-height: 30vw; object-fit: cover;">
+                <div class="carousel-caption  d-md-block" style="background-color: #656AED; border-radius: 50px; margin-left: 2vw; padding: 3vh; height: fit-content; max-width: 70% ; margin-top: auto; margin-bottom: auto;">
+                  <h5 style="font-weight: 700; margin-top: auto; margin-bottom: auto;">Руководитель удалённой службы поддержки</h5>
+                  <p>Ищем ответственного и организованного менеджера, который хорошо ладит с людьми​</p>
+                  <div class="aligner">
+                      <h7 >от 45 000 ₽ на руки</h7>
+                      <a href="card_help_3.html" style="text-decoration: none; color: white;  ">
+                        <h6 style="cursor: pointer;" onclick="showAlertAndRedirect()">Подробнее</h6>
+
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions-3" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions-3" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        </div>
+      
+      </div>
+
+
+
+      <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+        
+        <div id="carouselExampleCaptions-1" class="carousel slide" style="background-color: #fcce51;">
+          <div class="carousel-inner" >
+            <div class="carousel-item active" >
+                <div class = "item_card" style="display: flex;  padding: 2%; background-color: #fcce51; margin: 1vw 10%; height: 100%;">
+                    <img src="./style/images/back_1.png" class="d-block " alt="..." style="border-radius: 20px;  width: 50%; height: 100%; min-height: 30vw; object-fit: cover;">
+                <div class="carousel-caption  d-md-block" style="background-color: #656AED; border-radius: 50px; margin-left: 2vw; padding: 3vh; height: fit-content; max-width: 70% ; margin-top: auto; margin-bottom: auto;">
+                  <h5 style="font-weight: 700; margin-top: auto; margin-bottom: auto;">Аналитик упоминаний в социальных сетях</h5>
+                  <p>Ищем аналитика, отлично разбирающегося в работе социальных сетей​</p>
+                  <div class="aligner">
+                      <h7 >от 56 000 ₽</h7>
+                      <a href="card_back_1.html" style="text-decoration: none; color: white;  ">
+                        <h6 style="cursor: pointer;" onclick="showAlertAndRedirect()">Подробнее</h6>  
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" >
+                <div class = "item_card" style="display: flex;  padding: 2%; background-color: #fcce51; margin: 1vw 10%; height: 100%;">
+                    <img src="./style/images/back_2.png" class="d-block " alt="..." style="border-radius: 20px;  width: 50%; height: 100%; min-height: 30vw; object-fit: cover;">
+                <div class="carousel-caption  d-md-block" style="background-color: #656AED; border-radius: 50px; margin-left: 2vw; padding: 3vh; height: fit-content; max-width: 70% ; margin-top: auto; margin-bottom: auto;">
+                  <h5 style="font-weight: 700; margin-top: auto; margin-bottom: auto;">SMM-менеджер</h5>
+                  <p>Развивайте проекты Яндекса в соцсетях​</p>
+                    <div class="aligner">
+                      <h7 >от 65 000 ₽ на руки</h7>
+                      <a href="card_back_2.html" style="text-decoration: none; color: white;  ">
+                        <h6 style="cursor: pointer;" onclick="showAlertAndRedirect()">Подробнее</h6>  
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+                <div class = "item_card" style="display: flex;  padding: 2%; background-color: #fcce51; margin: 1vw 10%; height: 100%;">
+                    <img src="./style/images/back_3.png" class="d-block " alt="..." style="border-radius: 20px;  width: 50%; height: 100%; min-height: 30vw; object-fit: cover;">
+                <div class="carousel-caption  d-md-block" style="background-color: #656AED; border-radius: 50px; margin-left: 2vw; padding: 3vh; height: fit-content; max-width: 70% ; margin-top: auto; margin-bottom: auto;">
+                  <h5 style="font-weight: 700; margin-top: auto; margin-bottom: auto;">UX-исследователь</h5>
+                  <p>Мы регулярно анализируем удобство и доступность разных сервисов Яндекса. Ищем UX-исследователя, 
+                    который будет проводить глубинные интервью и юзабилити-тесты​</p>
+                  <div class="aligner">
+                      <h7 >от 47 000 ₽ на руки</h7>
+                      <a href="card_back_3.html" style="text-decoration: none; color: white;  ">
+                        <h6 style="cursor: pointer;" onclick="showAlertAndRedirect()">Подробнее</h6>   
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions-1" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions-1" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        </div>
+
+      </div>
+
+
+
+      <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">
+        <div id="carouselExampleCaptions-2" class="carousel slide" style="background-color: #fcce51;">
+          <div class="carousel-inner" >
+            <div class="carousel-item active" >
+                <div class = "item_card" style="display: flex;  padding: 2%; background-color: #fcce51; margin: 1vw 10%; height: 100%;">
+                    <img src="./style/images/neuro_1.png" class="d-block " alt="..." style="border-radius: 20px;  width: 50%; height: 100%; min-height: 30vw; object-fit: cover;">
+                <div class="carousel-caption  d-md-block" style="background-color: #656AED; border-radius: 50px; margin-left: 2vw; padding: 3vh; height: fit-content; max-width: 70% ; margin-top: auto; margin-bottom: auto;">
+                  <h5 style="font-weight: 700; margin-top: auto; margin-bottom: auto;">Шеф-редактор (со знанием английского языка)</h5>
+                  <p>Руководите командой, которая обучает и совершенствует нейросети Яндекса​</p>
+                  <div class="aligner">
+                      <h7 >от 121 000 ₽ на руки</h7>
+                      <a href="card_neuro_1.html" style="text-decoration: none; color: white;  ">
+                        <h6 style="cursor: pointer;" onclick="showAlertAndRedirect()">Подробнее</h6>   
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" >
+                <div class = "item_card" style="display: flex;  padding: 2%; background-color: #fcce51; margin: 1vw 10%; height: 100%;">
+                    <img src="./style/images/neuro_2.png" class="d-block " alt="..." style="border-radius: 20px;  width: 50%; height: 100%; min-height: 30vw; object-fit: cover;">
+                <div class="carousel-caption  d-md-block" style="background-color: #656AED; border-radius: 50px; margin-left: 2vw; padding: 3vh; height: fit-content; max-width: 70% ; margin-top: auto; margin-bottom: auto;">
+                  <h5 style="font-weight: 700; margin-top: auto; margin-bottom: auto;">Редактор (со знанием английского языка)</h5>
+                  <p>Обучайте нейросети грамотно переводить тексты​</p>
+                    <div class="aligner">
+                      <h7 >от 59 000 ₽ на руки</h7>
+                      <a href="card_neuro_2.html" style="text-decoration: none; color: white;  ">
+                        <h6 style="cursor: pointer;" onclick="showAlertAndRedirect()">Подробнее</h6>    
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+                <div class = "item_card" style="display: flex;  padding: 2%; background-color: #fcce51; margin: 1vw 10%; height: 100%;">
+                    <img src="./style/images/neuro_3.png" class="d-block " alt="..." style="border-radius: 20px;  width: 50%; height: 100%; min-height: 30vw; object-fit: cover;">
+                <div class="carousel-caption  d-md-block" style="background-color: #656AED; border-radius: 50px; margin-left: 2vw; padding: 3vh; height: fit-content; max-width: 70% ; margin-top: auto; margin-bottom: auto;">
+                  <h5 style="font-weight: 700; margin-top: auto; margin-bottom: auto;">AI-дизайнер</h5>
+                  <p>Создавайте дизайны с помощью нейросетей и развивайтесь в профессии будущего​</p>
+                  <div class="aligner">
+                      <h7 >от 78 000 ₽ на руки</h7>
+                      <a href="card_neuro_3.html" style="text-decoration: none; color: white;  ">
+                        <h6 style="cursor: pointer;" onclick="showAlertAndRedirect()">Подробнее</h6>  
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions-2" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions-2" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <footer class="bg-body-tertiary text-center text-lg-start" style=" margin-top: 2vw;">
+        <div class="inner">
+        <div class="container p-4">
+          <div class="row">
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+              <a class="navbar-brand" href="index.html#YANDEX">
+                <img class="img-fluid" src="./style/images/header_logo.png" alt="Yandex.Crowd" width="170px" >
+            </a>
+      
+              <p>
+                Помощь с поиском работы в компании-лидере<br>
+                <a href="8 800 600 08 67" style="text-decoration: none; color: #7800ff;">Нужна помощь?</a><br>
+                <a href="8 800 600 08 67"style="text-decoration: none; color: #7800ff;">8 800 600 08 67</a><br>
+              </p>
+            </div>
+      
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Документы</h5>
+      
+              <p>
+                <a href="https://yandex.ru/legal/confidential/"style="text-decoration: none; color: #7800ff;">Политика обработки персональных данных</a>
+              </p>
+            </div>
+          </div>
+          </div>
+        </div>
+      
+        <div class="text-center p-3" style="background-color: white;">
+          ©    2012–2024   Яндекс
+        </div>
+      </footer>
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+
+
